@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "294505152814",
+    "project_id": "callkeep-d8211",
+    "storage_bucket": "callkeep-d8211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294505152814:android:dc0ca90e7c7dc7d2107abf",
+        "android_client_info": {
+          "package_name": "com.democallkeep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL2Bqgf6rdbMaGvHn9Ey97ozCsKWzDGss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
