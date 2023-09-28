@@ -25,8 +25,12 @@ RNCallKeep.setup({
 });
 _BackgroundTimer.start();
 messaging().setBackgroundMessageHandler(async remoteMessage => {
-    console.log('Message handled in the background!', remoteMessage);
     CallService().displayIncomingCallNow()
+
+    RNCallKeep.addEventListener('answerCall', () => {
+        RNCallKeep.backToForeground();
+        // Navigating to the required page on app  after this.
+    });
 });
 
 
